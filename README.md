@@ -70,7 +70,7 @@ It really motivates me to continue this project further.
 
 - Install Python v3.7 or later from [Python's Website](https://python.org)
 - Install virtualenv using `python3 -m pip -U install virtualenv`.
-- **Fork** or Clone the project using `git clone https://github.com/DivideProjects/Alita_Robot.git`
+- **Fork** or Clone the project using `git clone https://github.com/Hesenovhuseyn/MeryemBot`
 - Create Virtualenv using: `virtualenv venv`
 - Install the requirements using `python3 -m pip install -r requirements.txt`
 - Fill in all the variables in *Development* class, not *Config* class. **Sudo, Dev, Whitelist** users are optional!!
@@ -108,7 +108,7 @@ If all works well, bot should send message to the **MESSAGE_DUMP** Group!
 ### Copyright & License
 
 * Copyright (C) 2020-2021 by [Divkix](https://github.com/Divkix) ❤️️
-* Licensed under the terms of the [GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/DivideProjects/Alita_Robot/blob/master/LICENSE)
+* Licensed under the terms of the [GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/Hesenovhuseyn/MeryemBot/blob/master/LICENSE)
 
 ## Powered By
 
