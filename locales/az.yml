@@ -504,7 +504,7 @@ strings:
     check_help: "Zəhmət olmasa, bu əmrdən necə istifadə etməyinizə dair kömək yoxlayın."
     close_btn: Bağla
     commands_available: |-
-      Salam, Xoş Gəldin Mənim Adım Nəzrin❤️
+      Salam, Xoş Gəldin Mənim Adım Məryəm❤️
       Qrupunuzu idarə etməydə sizə köməy olacam
 
       Bütün əmrlər / . ! ilə işlədilir
@@ -589,7 +589,7 @@ strings:
     commands_btn: Əmrlər (help)
     group: "Bəli. Mən işləyirəm ❤️"
     info_page: |-
-      • @NezrinRobot
+      • @MeryemRobot
 
       <b>Versiya:</b> <i>{version}</i>
 
@@ -597,7 +597,7 @@ strings:
     language_btn: Dili dəyiş
     pm_for_help: "Mümkün əmrlərin siyahısını almaq üçün PM-də mənimlə əlaqə saxlayın."
     private: |-
-      Xoş Gəldin Mənim Adım Nəzrin❤️
+      Xoş Gəldin Mənim Adım Məryəm❤️
       Qrupunuzu idarə etməydə sizə köməy olacam
       Əmrlər siyahısını görməy üçün buttona toxunun
 
