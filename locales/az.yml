@@ -119,6 +119,9 @@ strings:
         Formatlama/dəyərlər
 
         Nəzrin mesajlarınızı daha ifadəli etmək üçün çox sayda formatlama seçimini dəstəkləyir. Aşağıdakı düymələri tıklayaraq bir nəzər yetirin!
+      Tag:
+      main: "Tagger"
+      help: |-    
     sehid:
       main: "🇦🇿Şəhidlər"
       help: |-
