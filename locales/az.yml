@@ -122,11 +122,11 @@ strings:
       Tag:
       main: "Tagger"
       help: |- 
-       - `/tag` -  Çox yaxında    
+       x /tag` -  Çox yaxında    
     sehid:
       main: "🇦🇿Şəhidlər"
       help: |-
-        - `/sehid` - Bu əmr vaistəsiylə sizə *Şəhid* adları göndərəcəm
+        × /sehid` - Bu əmr vaistəsiylə sizə *Şəhid* adları göndərəcəm
         *Allah bütün Şəhidimizə rəhmət eləsin*
         Qazilərimizə şəfa versin
         Başın sağolsun Azərbaycan 🇦🇿
