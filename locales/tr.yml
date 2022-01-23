@@ -6,18 +6,18 @@ main:
 strings:
   plugins:
     admin:
-      main: "👮🏻‍♂️Admin"
+      main: "👮🏻‍♂️Админ"
       help: |-
-        Adminlər üçün kimisə təşviq etmək və ya demo etmək üçün tənbəl? Çat haqqında əsas məlumatı görmək istəyirsiniz?
-        Admin siyahıları kimi söhbət otağı haqqında bütün əşyalar, dəvət olunan bir linkini vurub tutmaq və ya tutmaq asanlıqla bot istifadə etməklə edilə bilər.
-        **İstifadəçi Əmrləri:**
-        × /adminlist: Qrupdaki bütün adminləri göstərər.
-        **Yalnız Adminlər:**
-        × /invitelink: Qrupun dəvət linki.
-        × /promote: Yanıtlanan və ya tağ adıyla yazılan istifadəçiyə sadə yetki verər.
-        × /fullpromote: Yanıtlanan və ya tağ adıyla yazılan istifadəçiyə tam yetki verər.
-        × /demote: İstifadəçinin yetkisini alar
-        × /admincache: Admin siyahısını yeniləyər
+        Лень продвигать или демо кого-то для админов?  Хотите увидеть основную информацию о чате?
+         Все, что касается чата, например, списки администраторов, можно легко сделать с помощью бота, щелкнув или перехватив приглашенную ссылку.
+         ** Команды пользователя: **
+        × /adminlist: Показывает всех админов в группе.
+        ** Только администраторы: **
+        × /invitelink: Пригласительная ссылка группы.
+        × /promote: Дает простые полномочия просматриваемому или помечаемому пользователю.
+        × /fullpromote: Предоставляет полные права просматриваемому или помечаемому пользователю.
+        × /demote: Получает полномочия пользователя
+        × /admincache: AОбновляет список администраторов
         × /zombies: Silinən hesabları qrupdan atar
         × /title: Bot yetki verdiyi istifadəçinin admin başlığını dəyişin.
         × /disable <əmr adı>: İstifadəçilər yazdığınız əmri qrupda işlədə bilməz
