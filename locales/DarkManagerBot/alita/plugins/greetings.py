@@ -290,7 +290,7 @@ async def member_has_joined(c: Alita, member: ChatMemberUpdated):
         if user.id == OWNER_ID:
             await c.send_message(
                 member.chat.id,
-                "Wew My Owner has also joined the chat!",
+                "❤Məryəm❤ Botun Sahibi Qrupa Qoşuldu Xoş Gəldin Sahibim🤗!",
             )
             return
         if banned_users:
@@ -397,7 +397,7 @@ async def member_has_left(c: Alita, member: ChatMemberUpdated):
         if user.id == OWNER_ID:
             await c.send_message(
                 member.chat.id,
-                "Will miss you :)",
+                "Sənin üçün darıxacam Sahibim🥺:)",
             )
             return
         try:
