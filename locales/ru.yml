@@ -2,7 +2,7 @@
 main:
   lang_sample: "Rus"
   language_flag: "🇷🇺"
-  language_name: Turkiye
+  language_name: Rus
 strings:
   plugins:
     admin:
