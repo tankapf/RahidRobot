@@ -1,7 +1,7 @@
 ---
 main:
-  lang_sample: "Türkiye"
-  language_flag: "🇹🇷"
+  lang_sample: "Rus"
+  language_flag: "🇷🇺"
   language_name: Turkiye
 strings:
   plugins:
