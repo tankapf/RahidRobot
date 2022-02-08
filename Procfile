@@ -1,2 +1,2 @@
 worker: make run
-bot: python3 Tagger.py
+bot: luna.py
