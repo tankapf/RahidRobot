@@ -1,2 +1,2 @@
 worker: make run
-worker: python3 bot.py
+worker: luna.py
