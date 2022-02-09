@@ -1,3 +1,3 @@
 worker: make run
 
-worker: luna.py
+app: luna.py
