@@ -119,10 +119,6 @@ strings:
         Formatlama/dəyərlər
 
         Nəzrin mesajlarınızı daha ifadəli etmək üçün çox sayda formatlama seçimini dəstəkləyir. Aşağıdakı düymələri tıklayaraq bir nəzər yetirin!
-      Tag:
-      main: "Tagger"
-      help: |- 
-       x /tag` -  Çox yaxında    
     sehid:
       main: "🇦🇿Şəhidlər"
       help: |-
@@ -503,7 +499,7 @@ strings:
 
       All the fund would be put into my services such as database, storage and hosting!
 
-      You can donate by contacting my owner here: @aykhan_s
+      Sahibimlə burada əlaqə saxlayaraq ianə verə bilərsiniz: @HuseynH
     back_btn: Geri
     check_help: "Zəhmət olmasa, bu əmrdən necə istifadə etməyinizə dair kömək yoxlayın."
     close_btn: Bağla
