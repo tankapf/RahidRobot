@@ -47,12 +47,12 @@ INITIAL_LOCK = RLock()
 # Check if MESSAGE_DUMP is correct
 if MESSAGE_DUMP == -100 or not str(MESSAGE_DUMP).startswith("-100"):
     raise Exception(
-        "Please enter a vaild Supergroup ID, A Supergroup ID starts with -100",
+        "Lütfən, etibarlı Superqrup İD daxil edin, Superqrup ID-si -100 ilə başlayır",
     )
 
 
 class Alita(Client):
-    """Starts the Pyrogram Client on the Bot Token when we do 'python3 -m alita'"""
+    """"python3 -m alita" etdikdə Bot Tokenində Piroqram Müştərisini işə salır'"""
 
     def __init__(self):
         name = self.__class__.__name__.lower()
@@ -101,7 +101,7 @@ class Alita(Client):
             ),
         )
 
-        LOGGER.info("Qoz Kimidi Hər Şey!\n")
+        LOGGER.info("Bot Başladıldı Xəta Olarsa Sahiblə Əlaqə Saxla @HuseynH!\n")
 
     async def stop(self):
         """Stop the bot and send a message to MESSAGE_DUMP telling that the bot has stopped."""
