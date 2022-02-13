@@ -50,8 +50,8 @@ LOGGER = getLogger(__name__)
 if version_info[0] < 3 or version_info[1] < 7:
     LOGGER.error(
         (
-            "You MUST have a Python Version of at least 3.7!\n"
-            "Multiple features depend on this. Bot quitting."
+            "Ən azı 3.7 Python Versiyanız olmalıdır!\n"
+            "Bir çox xüsusiyyətlər bundan asılıdır.  Bot tərk edir."
         ),
     )
     sysexit(1)  # Quit the Script
@@ -68,7 +68,7 @@ except Exception as ef:
     sysexit(1)
 
 LOGGER.info("---------------------------")
-LOGGER.info("|      Dağıdaram blət     |")
+LOGGER.info("|      Məryəm Super İşləyir    |")
 LOGGER.info("---------------------------")
 LOGGER.info(f"Version: {Config.VERSION}")
 LOGGER.info(f"Sahib: {str(Config.OWNER_ID)}")
