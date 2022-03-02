@@ -6,7 +6,7 @@ from pyrogram import filters
 from cryptography.fernet import Fernet
 from alita.tr_engine import tlang
 from alita.bot_class import Alita as broadcast
-from broadcast.komekci import tes_cavab
+from broadcast.import broadcast
         
 @Client.on_message(filters.command("broadcast") & filters.user(ADMINS) & filters.reply)
 # https://t.me/GetTGLink/4178
