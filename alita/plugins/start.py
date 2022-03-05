@@ -49,13 +49,13 @@ async def close_admin_callback(_, q: CallbackQuery):
     user_status = (await q.message.chat.get_member(user_id)).status
     if user_status not in {"creator", "administrator"}:
         await q.answer(
-            "You're not even an admin, don't try this explosive shit!",
+            "Sən heç admin də deyilsən, bu partlayıcı işi sınama!",
             show_alert=True,
         )
         return
     if user_status != "creator":
         await q.answer(
-            "You're just an admin, not owner\nStay in your limits!",
+           "Siz sadəcə adminsiniz, sahib deyilsiniz\nHəddi-hüdudunuzda qalın!",
             show_alert=True,
         )
         return
