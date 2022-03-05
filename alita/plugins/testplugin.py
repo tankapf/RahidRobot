@@ -30,5 +30,5 @@ async def test_bot(bot: Alita, m: Message):
     replymsg = await m.reply_text("❤️ Hesablanır...")
     end = round(time() - start, 2)
     text = f"❤️ **Haycan, Mən işləyirəm**\n👨🏻‍💻 **Sahib - ** [HÜSEYN](http://t.me/HuseynH\n️📣 **Kanal -**[NeBaxsan](http://t.me/HoneyBeestChannel\n👥 **Söhbət Qrupu -**@7172501878ffd261a9f78.mp4\nℹ️ __Bunu yazmağım {end} saniyə çəkdi__"
-    await bot.sendm.delete()_photo(m.chat.id, photo="https://telegra.ph//file/6c8ae3dc816709832c09d.jpg", caption=text)
+    await bot.sendm.delete_photo(m.chat.id, photo="https://telegra.ph//file/6c8ae3dc816709832c09d.jpg", caption=text)
     return
