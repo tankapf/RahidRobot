@@ -342,10 +342,10 @@ async def chat_broadcast(c: Alita, m: Message):
     if m.reply_to_message:
         msg = m.reply_to_message.text.markdown
     else:
-        await m.reply_text("Reply to a message to broadcast it")
+        await m.reply_text("Yayım üçün mesaja cavab verin")
         return
 
-    exmsg = await m.reply_text("Started broadcasting!")
+    exmsg = await m.reply_text("Yayım başladı!")
     all_chats = (Chats.list_chats_by_id()) or {}
     err_str, done_broadcast = "", 0
 
@@ -360,7 +360,7 @@ async def chat_broadcast(c: Alita, m: Message):
             continue
 
     await exmsg.edit_text(
-        f"Done broadcasting ✅\nSent message to {done_broadcast} chats",
+        f"Yayım tamamlandı ✅\n{done_broadcast} çatlarına mesaj göndərildi",
     )
 
     if err_str:
