@@ -218,13 +218,13 @@ strings:
         Burada qrup sancaqları ilə bağlı bütün yardımları və mənim vasitəmlə onları necə idarə edəcəyinizi tapa bilərsiniz.
 
         **Adminlər üçün:**
-        × /pin: Silently pins the message replied to - add `loud`, `notify` or `alert` to give notificaton to users.
-        × /unpin: Unpins the last pinned message.
-        × /pinned: Gives the current pinned message of the chat.
-        × /unpinall: Unpins all the pinned message in the current chat.
-        × /antichannelpin `<on/off/yes/no>`: Toggle antichannelpin status. All the messages from linked channel will be unpinned if enabled!
-        × /cleanlinked `<on/off/yes/no>`: Toggle cleanlinked status. All the messages from linked channel will be deleted if enabled!
-        × /permapin `<text>`: Pin a custom messages via bot. This message can contain markdown, and can be used in replies to the media include additional buttons and text.
+        × /pin: Cavab verilən mesajı səssizcə sabitləyin - istifadəçilərə bildiriş vermək üçün 'yüksək', 'bildiriş' və ya 'xəbərdarlıq' əlavə edin.
+        × /unpin: Son bağlanmış mesajı çıxarır.
+         × /pinned: Söhbətin cari bərkidilmiş mesajını verir.
+         × /unpinall: Cari söhbətdə bütün bərkidilmiş mesajı çıxarır.
+        × /antichannelpin `<on/off/yes/no>`: Antikanal pin statusunu dəyişdirin.  Aktivləşdirildikdə, əlaqələndirilmiş kanaldan gələn bütün mesajlar blokdan çıxarılacaq!
+        × /cleanlinked `<on/off/yes/no>`: Təmizlənmiş əlaqə vəziyyətini dəyişdirin.  Aktivləşdirildikdə, əlaqəli kanaldan gələn bütün mesajlar silinəcək!
+         × /permapin `<text>`: Bot vasitəsilə fərdi mesajları sancaqlayın.  Bu mesajda işarələmə ola bilər və əlavə düymələr və mətn daxil olmaqla mediaya cavablarda istifadə edilə bilər.
     purges:
       main: "🗑️Silmək"
       help: |-
@@ -258,17 +258,17 @@ strings:
       help: |-
         Tapşırıqlarınızı asanlaşdırmaq üçün bot tərəfindən təqdim olunan bəzi alətlər!
 
-        × /id: Get the current group id. If used by replying to a message, get that user's id.
-        × /info: Get information about a user.
-        × /gifid: Reply to a gif to me to tell you its file ID.
-        × /wiki: `<query>`: wiki your query.
-        × /tr `<language>`: Translates the text and then replies to you with the language you have specifed, works as a reply to message.
-        × /github `<username>`: Search for the user using github api!
-        × /lyrics `<song>`: Get the lyrics of the song you specify!
-        × /weebify `<text>` or `<reply to message>`: To weebify the text.
+        × /id: Cari qrup identifikatorunu əldə edin.  Mesaja cavab verməklə istifadə edilərsə, həmin istifadəçinin id-sini əldə edin.
+         × /info: İstifadəçi haqqında məlumat əldə edin.
+         × /gifid: Mənə gif-ə cavab verin ki, sizə onun fayl identifikatorunu bildirin.
+         × /wiki: `<query>`: sorğunuzu vikiləşdirin.
+         × /tr `<dil>`: Mətni tərcümə edir və sonra qeyd etdiyiniz dildə sizə cavab verir, mesaja cavab kimi işləyir.
+         × /github `<istifadəçi adı>`: github api istifadə edərək istifadəçini axtarın!
+        × /lyrics `<mahnı>`: Göstərdiyiniz mahnının sözlərini əldə edin!
+         × /weebify `<text>` və ya `<mesaja cavab vermək>`: Mətni ağlamaq üçün.
 
-        **Example:**
-        `/info @username`: this fetches the information about a user from the database.
+        **Məsələn:**
+         `/info @username`: bu verilənlər bazasından istifadəçi haqqında məlumat alır.
     warnings:
       main: "❗Xəbərdarlıqlar"
       help: |-
@@ -479,7 +479,7 @@ strings:
 
         <b>Chat name | Chat ID | Members count</b>
     execute_cmd_err: "Zəhmət olmasa kodu düzgün icra edin!"
-    restarting: Yenidən başladılır...
+    restarting: "Yenidən başladılır..."
     speedtest:
       speedtest_txt: |-
         Speedtest
@@ -504,7 +504,7 @@ strings:
     check_help: "Zəhmət olmasa, bu əmrdən necə istifadə etməyinizə dair kömək yoxlayın."
     close_btn: Bağla
     commands_available: |-
-      Salam, Xoş Gəldin Mənim Adım Məryəm❤️
+      Salam, Xoş Gəldin Mənim Adım Mələk❤️
       Qrupunuzu idarə etməydə sizə köməy olacam
 
       Bütün əmrlər / . ! ilə işlədilir
@@ -589,7 +589,7 @@ strings:
     commands_btn: Əmrlər (help)
     group: "Bəli. Mən işləyirəm ❤️"
     info_page: |-
-      • @MeryemRobot
+      • @MelekRobot
 
       <b>Versiya:</b> <i>{version}</i>
 
