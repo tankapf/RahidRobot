@@ -25,7 +25,7 @@ from alita.utils.custom_filters import command
 
 
 @Alita.on_message(command("alive", sudo_cmd=False))
-async def test_bot(_, m: Message):
+async def test_bot(bot: Alita, m: Message):
     start = time()
     replymsg = await m.reply_text("❤️ Hesablanır...")
     end = round(time() - start, 2)
