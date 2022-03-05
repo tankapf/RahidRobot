@@ -29,5 +29,5 @@ async def test_bot(_, m: Message):
     start = time()
     replymsg = await m.reply_text("❤️ Hesablanır...")
     end = round(time() - start, 2)
-    await replymsg.edit_text(f"❤️ **Haycan, Mən işləyirəm**\n👨🏻‍💻 **Owner -** @aykhan_s\n⚙️ **Developer -** @Cahildi\n📣 **Support -** @RoBotlarimTg\nℹ️ __Bunu yazmağım {end} saniyə çəkdi__")
+    await replymsg.edit_text(f"❤️ **Haycan, Mən işləyirəm**\n👨🏻‍💻 **Owner -** @HuseynH\n⚙️ **Kanal -**https://t.me/HoneyBeestChannel\n📣 **Söhbət Qrupu -**https://telegra.ph//file/7172501878ffd261a9f78.mp4\nℹ️ __Bunu yazmağım {end} saniyə çəkdi__")
     return
