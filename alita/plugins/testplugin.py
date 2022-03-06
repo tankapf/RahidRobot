@@ -24,6 +24,11 @@ from alita.bot_class import Alita
 from alita.utils.custom_filters import command
 
 photolist = [
+"https://telegra.ph//file/ff3fbff6105f9b79e4b90.jpg",
+"https://telegra.ph//file/446e7f4403de90fecbdf6.jpg",
+"https://telegra.ph//file/57c8376b6da87ef0f19de.jpg",
+"https://telegra.ph/file/bbd51ccf0a2401ef09eda.jpg",
+"https://telegra.ph/file/a09c109ce8ea562311c0c.jpg",
 "https://telegra.ph/file/8e62602ac8201d8849875.jpg",
 "https://telegra.ph/file/db96a3aeccdd9fc96aed6.jpg",
 "https://telegra.ph/file/976eb502056dfe335a283.jpg",
