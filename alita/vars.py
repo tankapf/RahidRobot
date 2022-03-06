@@ -41,8 +41,8 @@ class Config:
     DB_NAME = config("DB_NAME", default="alita_robot")
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
-    SUPPORT_GROUP = config("SUPPORT_GROUP", default="RoBotlarimGroup")
-    SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="RoBotlarimTg")
+    SUPPORT_GROUP = config("Söhbət Qrupu", default="HoneyBeestt")
+    SUPPORT_CHANNEL = config("Kanal", default="HoneyBeestChannel")
     ENABLED_LOCALES = [str(i) for i in config("ENABLED_LOCALES", default="az").split()]
     VERSION = config("VERSION", default="v2.0")
     WORKERS = int(config("WORKERS", default=16))
