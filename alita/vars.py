@@ -65,8 +65,8 @@ class Development:
     DB_NAME = "alita_robot"
     NO_LOAD = []
     PREFIX_HANDLER = ["!", "/"]
-    SUPPORT_GROUP = "SUPPORT_GROUP"
-    SUPPORT_CHANNEL = "SUPPORT_CHANNEL"
+    SUPPORT_GROUP = "Söhbət Qrupu"
+    SUPPORT_CHANNEL = "Kanal"
     ENABLED_LOCALES = ["ENABLED_LOCALES"]
     VERSION = "VERSION"
     WORKERS = 8
