@@ -205,6 +205,6 @@ async def test_bot(bot: Alita, m: Message):
     replymsg = await m.reply_text("`❤️ Hesablanır...`")
     end = round(time() - start, 2)
     photo = random.choice(photolist)
-    text = f"❤️ **Haycan, Mən işləyirəm**\n👨🏻‍💻 **Sahib [HÜSEYN](http://t.me/HuseynH)\n️📣 **Kanal -**[Kanal](http://t.me/HoneyBeestChannel)\nℹ️ __Bunu yazmağım {end} saniyə çəkdi__"
+    text = f"❤️ **{mention}Haycan, Mən işləyirəm**\n👨🏻‍💻 **Sahib [HÜSEYN](http://t.me/HuseynH)\n️📣 **Kanal -**[Kanal](http://t.me/HoneyBeestChannel)\nℹ️ __Bunu yazmağım {end} Python versiyası {python} saniyə çəkdi__"
     await bot.send_photo(m.chat.id, photo=photo, caption=text)
     await replymsg.delete()
