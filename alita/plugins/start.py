@@ -63,13 +63,14 @@ async def close_admin_callback(_, q: CallbackQuery):
     await q.answer("Closed menu!", show_alert=True)
     return
 
- 
+from pyrogram import Client, filters 
+
 @Alita.on_message(filters.command("start"))
-async def start(bot Alita,m: Client, message: Message):
+async def start(bot: Client, message: Message):
     await bot.send_photo(photo="https://telegra.ph/file/5ee3fb631295ef692635d.jpg")
 
-async def start(c: Alita: Message):
-   if bot.send m.chat.type == "private":
+async def start(c: Alita, m: Message):
+    if m.chat.type == "private":
         if len(m.text.split()) > 1:
             help_option = (m.text.split(None, 1)[1]).lower()
 
