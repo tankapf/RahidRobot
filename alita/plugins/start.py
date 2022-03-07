@@ -69,7 +69,7 @@ async def start(bot Alita: Client, message: Message):
     await bot.send_photo(photo="https://telegra.ph/file/5ee3fb631295ef692635d.jpg")
 
 async def start(c: Alita, m: Message):
-    bot.send  m.chat.type == "private":
+    if m.chat.type == "private":
         if len(m.text.split()) > 1:
             help_option = (m.text.split(None, 1)[1]).lower()
 
