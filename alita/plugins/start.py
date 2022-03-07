@@ -66,7 +66,7 @@ async def close_admin_callback(_, q: CallbackQuery):
 from pyrogram import Client, filters 
 
 @Alita.on_message(filters.command("start"))
-async def start(bot: Client, message: Message):
+async def start(bot Alita: Client, message: Message):
     await bot.send_photo(photo="https://telegra.ph/file/5ee3fb631295ef692635d.jpg")
 
 async def start(c: Alita, m: Message):
