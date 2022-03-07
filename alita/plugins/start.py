@@ -63,12 +63,6 @@ async def close_admin_callback(_, q: CallbackQuery):
     await q.answer("Closed menu!", show_alert=True)
     return
 
-liste= ["https://telegra.ph//file/3e2964c5a5d53e64adda1.mp4",
-"https://telegra.ph//file/3e2964c5a5d53e64adda1.mp4",
-"https://telegra.ph//file/3e2964c5a5d53e64adda1.mp4"]
-
-
-
 from pyrogram import Client, filters 
 
 @Alita.on_message(filters.command("start"))
