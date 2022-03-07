@@ -69,10 +69,11 @@ liste= ["https://telegra.ph//file/3e2964c5a5d53e64adda1.mp4",
 
 
 
-@Alita.on_message(
-    .command("start"))
-async def start(bot: Client, msg: Message):
-    await msg.reply(random.choice(liste))
+from pyrogram import Client, filters 
+
+@Alita.on_message(filters.command("start"))
+async def start(bot: Client, message: Message):
+    await bot.send_photo(photo="https://telegra.ph/file/5ee3fb631295ef692635d.jpg")
 
 async def start(c: Alita, m: Message):
     if m.chat.type == "private":
