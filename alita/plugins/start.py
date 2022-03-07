@@ -66,11 +66,11 @@ async def close_admin_callback(_, q: CallbackQuery):
  
 @Alita.on_message(filters.command("start"))
 async def start(bot Alita,m: Client, message: Message):
-    await c.send_photo(photo="https://telegra.ph/file/5ee3fb631295ef692635d.jpg")
+    await bot.send_photo(photo="https://telegra.ph/file/5ee3fb631295ef692635d.jpg")
 
 async def start(c: Alita, m: Message):
     if m.chat.type == "private":
-    bot.send    if len(m.text.split()) > 1:
+    c.send    if len(m.text.split()) > 1:
             help_option = (m.text.split(None, 1)[1]).lower()
 
             if help_option.startswith("note") and (
