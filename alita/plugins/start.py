@@ -50,7 +50,7 @@ async def close_admin_callback(_, q: CallbackQuery):
 @Alita.on_message(
     command("start") & (filters.group | filters.private),
 )
-async def start(bot: Client, message: Message):
+async def start(bot:Alita Client, message: Message):
     await bot.send_photo(photo='https://telegra.ph/file/5ee3fb631295ef692635d.jpg")
     
 async def start(c: Alita, m: Message):
