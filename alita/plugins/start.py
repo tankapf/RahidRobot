@@ -71,7 +71,7 @@ liste= ["https://telegra.ph//file/3e2964c5a5d53e64adda1.mp4",
 
 @Alita.on_message(
     .command("alive"))
-async def alive(bot: Client, msg: Message):
+async def start(bot: Client, msg: Message):
     await msg.reply(random.choice(liste))
 
 async def start(c: Alita, m: Message):
