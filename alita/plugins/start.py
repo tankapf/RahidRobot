@@ -70,7 +70,7 @@ async def start(bot Alita,m: Client, message: Message):
 
 async def start(c: Alita, m: Message):
     if m.chat.type == "private":
-        if len(m.text.split()) > 1:
+    bot.send    if len(m.text.split()) > 1:
             help_option = (m.text.split(None, 1)[1]).lower()
 
             if help_option.startswith("note") and (
