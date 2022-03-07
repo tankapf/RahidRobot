@@ -1,21 +1,3 @@
-# Copyright (C) 2020 - 2021 Divkix. All rights reserved. Source code available under the AGPL.
-#
-# This file is part of Alita_Robot.
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as
-# published by the Free Software Foundation, either version 3 of the
-# License, or (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-
 from pyrogram import filters
 from pyrogram.errors import MessageNotModified, QueryIdInvalid, UserIsBlocked
 from pyrogram.types import CallbackQuery, Message
@@ -32,6 +14,7 @@ from alita.utils.start_utils import (
     get_private_note,
     get_private_rules,
 )
+from alita.vars import Config
 
 
 @Alita.on_message(
@@ -49,13 +32,13 @@ async def close_admin_callback(_, q: CallbackQuery):
     user_status = (await q.message.chat.get_member(user_id)).status
     if user_status not in {"creator", "administrator"}:
         await q.answer(
-            "Sən heç admin də deyilsən, bu partlayıcı işi sınama!",
+            "You're not even an admin, don't try this explosive shit!",
             show_alert=True,
         )
         return
     if user_status != "creator":
         await q.answer(
-           "Siz sadəcə adminsiniz, sahib deyilsiniz\nHəddi-hüdudunuzda qalın!",
+            "You're just an admin, not owner\nStay in your limits!",
             show_alert=True,
         )
         return
@@ -64,10 +47,9 @@ async def close_admin_callback(_, q: CallbackQuery):
     return
 
 
-@Alita.on_message(filters.command("start"))
-async def start(bot Alita: Client, message: Message):
-    await bot.send_photo(photo="https://telegra.ph/file/5ee3fb631295ef692635d.jpg")
-
+@Alita.on_message(
+    command("start") & (filters.group | filters.private),
+)
 async def start(c: Alita, m: Message):
     if m.chat.type == "private":
         if len(m.text.split()) > 1:
@@ -153,8 +135,6 @@ async def commands_menu(_, q: CallbackQuery):
 
 @Alita.on_message(command("help"))
 async def help_menu(_, m: Message):
-    from alita import BOT_USERNAME
-
     if len(m.text.split()) >= 2:
         help_option = (m.text.split(None, 1)[1]).lower()
         help_msg, help_kb = await get_help_msg(m, help_option)
@@ -178,7 +158,15 @@ async def help_menu(_, m: Message):
             await m.reply_text(
                 (tlang(m, "start.public_help").format(help_option=help_option)),
                 reply_markup=ikb(
-                    [[("Help", f"t.me/{BOT_USERNAME}?start={help_option}", "url")]],
+                    [
+                        [
+                            (
+                                "Help",
+                                f"t.me/{Config.BOT_USERNAME}?start={help_option}",
+                                "url",
+                            ),
+                        ],
+                    ],
                 ),
             )
     else:
@@ -191,7 +179,9 @@ async def help_menu(_, m: Message):
             )
             msg = tlang(m, "general.commands_available")
         else:
-            keyboard = ikb([[("Help", f"t.me/{BOT_USERNAME}?start=help", "url")]])
+            keyboard = ikb(
+                [[("Help", f"t.me/{Config.BOT_USERNAME}?start=help", "url")]],
+            )
             msg = tlang(m, "start.pm_for_help")
 
         await m.reply_text(
