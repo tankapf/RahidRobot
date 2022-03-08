@@ -54,6 +54,8 @@ async def start(c: Alita, m: Message):
     if m.chat.type == "private":
         if len(m.text.split()) > 1:
             help_option = (m.text.split(None, 1)[1]).lower()
+Alita_IMG = "https://telegra.ph/file/200b2cebc65cfbe720dd0.png"
+
 
             if help_option.startswith("note") and (
                 help_option not in ("note", "notes")
