@@ -1,14 +1,10 @@
-import asyncio
-from os import remove
-from traceback import format_exc
-
+import secrets
+import string
+import aiohttp
 from pyrogram import filters
-from pyrogram.errors import (
-)
-from pyrogram.types import Message
-from alita import arq
-from alita.utils.errors import capture_err
-from alita import pbot as app
+from  cryptography . fernet  import  Fernet
+from alita.tr_engine import quotes.py
+from alita.bot_class import Alita
 
 
 async def quotify(messages: list):
