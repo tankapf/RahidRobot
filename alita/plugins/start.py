@@ -51,6 +51,7 @@ async def close_admin_callback(_, q: CallbackQuery):
     command("start") & (filters.group | filters.private),
 )
 async def start(c: Alita, m: Message):
+    c.send_photo(photo="", m.chat.id)
     if m.chat.type == "private":
         if len(m.text.split()) > 1:
             help_option = (m.text.split(None, 1)[1]).lower()
