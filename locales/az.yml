@@ -40,7 +40,7 @@ strings:
         **Əlavə:**
         `/approve @username`: istifadəçi adıyla təsdiqlə
     greetings:
-      main: "🙋🏻‍♀️Qarşılama"
+      main: "🙋🏻‍♂️Qarşılama"
       help: |-
         **Yalnız Adminlər**
         
@@ -504,7 +504,7 @@ strings:
     check_help: "Zəhmət olmasa, bu əmrdən necə istifadə etməyinizə dair kömək yoxlayın."
     close_btn: Bağla
     commands_available: |-
-      Salam, Xoş Gəldin Mənim Adım Mələk❤️
+      Salam, Xoş Gəldin Mənim Adım Vüsal❤️
       Qrupunuzu idarə etməydə sizə köməy olacam
 
       Bütün əmrlər / . ! ilə işlədilir
@@ -587,9 +587,9 @@ strings:
   start:
     add_chat_btn: "Qrupa əlavə et!"
     commands_btn: Əmrlər (help)
-    group: "Bəli. Mən işləyirəm ❤️"
+    group: "Bəli. Mən işləyirəm 🖤"
     info_page: |-
-      • @MelekRobot
+      • @VusalQorumaBot
 
       <b>Versiya:</b> <i>{version}</i>
 
@@ -597,7 +597,7 @@ strings:
     language_btn: Dili dəyiş
     pm_for_help: "Mümkün əmrlərin siyahısını almaq üçün PM-də mənimlə əlaqə saxlayın."
     private: |-
-      Xoş Gəldin Mənim Adım ❤Mələk❤️
+      Xoş Gəldin Mənim Adım Vüsal🖤
       Qrupunuzu idarə etməydə sizə köməy olacam
       Əmrlər siyahısını görməy üçün buttona toxunun
 
@@ -656,7 +656,7 @@ strings:
 
 
           Bu üzv mənim developerimdir ⚡️
-        owner: |-
+        owner: |- @vusaliw
 
 
           Bu adam mənim sahibimdir, mən heç vaxt onlara qarşı heç nə etməzdim!
