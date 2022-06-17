@@ -650,7 +650,7 @@ strings:
           <b>Link:</b> {perma_link}
         username: |-
 
-          <b>İstifadəçi adı:</b> @{username}
+          <b>İstifadəçi adı:</b> {username}
       support_user:
         dev: |-
 
