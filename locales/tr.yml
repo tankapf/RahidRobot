@@ -496,7 +496,7 @@ strings:
     check_help: "Zəhmət olmasa, bu əmrdən necə istifadə etməyinizə dair kömək yoxlayın."
     close_btn: Bağla
     commands_available: |-
-      Salam, Xoş Gəldin Mənim Adım Nəzrin❤️
+      Salam, Xoş Gəldin Mənim Adım Vüsal🖤
       Qrupunuzu idarə etməydə sizə köməy olacam
 
       Bütün əmrlər / . ! ilə işlədilir
@@ -579,9 +579,9 @@ strings:
   start:
     add_chat_btn: "Qrupa əlavə et!"
     commands_btn: Əmrlər (help)
-    group: "Evet. Ben Çalışıyorum ❤️"
+    group: "Evet. Ben Çalışıyorum 🖤"
     info_page: |-
-      • @NezrinRobot
+      • @VusalQorumaBot
 
       <b>Versiya:</b> <i>{version}</i>
 
@@ -589,7 +589,7 @@ strings:
     language_btn: Dili dəyiş
     pm_for_help: "Mümkün əmrlərin siyahısını almaq üçün PM-də mənimlə əlaqə saxlayın."
     private: |-
-      Xoş Gəldin Mənim Adım Nəzrin❤️
+      Xoş Gəldin Mənim Adım Vüsal🖤
       Qrupunuzu idarə etməydə sizə köməy olacam
       Əmrlər siyahısını görməy üçün buttona toxunun
 
@@ -640,24 +640,24 @@ strings:
         perma_link: |-
 
           <b>Link:</b> {perma_link}
-        username: |-
+        username: |- @vusaliw | 🧑🏻‍💻
 
           <b>İstifadəçi adı:</b> @{username}
       support_user:
-        dev: |-
+        dev: |- @vusaliw | 🧑🏻‍💻
 
 
           Bu üzv mənim developerimdir ⚡️
-        owner: |-
+        owner: |- @vusaliw | 🧑🏻‍💻
 
 
           Bu adam mənim sahibimdir, mən heç vaxt onlara qarşı heç nə etməzdim!
 
-        sudo: |-
+        sudo: |- @vusaliw | 🧑🏻‍💻
 
 
           Bu istifadəçi mənim sudosumdan biridir, o, sahibi üçün təxminən eyni olan səlahiyyətləri var!
-        whitelist: |-
+        whitelist: |- @vusaliw | 🧑🏻‍💻
 
 
          Bu şəxs mənim ağ siyahımda olan istifadəçidir qadağan edilə bilməz!
